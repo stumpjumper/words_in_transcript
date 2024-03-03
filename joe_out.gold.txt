@@ -1,59 +1,54 @@
-which i actually believe is tesla's strongest suit the strongest **value** out of the company then many of you have heard
+Document: Joe Justice about Agile Hardware Development at Tesla and SpaceX.txt
+Total number of words: 15570. Words (before,after) keywords = (20,20).
 
-done one or more hours every day much of the **value** of sleeping at the bottleneck is is is given to you the next **value** of sleeping at the bottleneck is you have around the
+(1319,1360): so she may enjoy this she heard about digital self-management which i actually believe is tesla's strongest suit the strongest **value** out of the company then many of you have heard about how elon musk leads by sleeping at the bottleneck
 
-shower or whatnot that seems to create more of the **value** of around-the-clock development shared ownership and giving your sleeping mind
+(1967,2022): decision than you would any other way if this is done one or more hours every day much of the **value** of sleeping at the bottleneck is is is given to you the next **value** of sleeping at the bottleneck is you have around the clock development you know when you wake up the problem
 
-criteria for that financial release is will it triple its **value** within the next few years usually three years if not
+(2181,2222): read that and then i would get up and go shower or whatnot that seems to create more of the **value** of around-the-clock development shared ownership and giving your sleeping mind an opportunity to evolve the problem digital self-management is the
 
-go wherever you think you can be contributing the most **value** and you can change at any time so there are
+(2474,2515): amounts of budget more than three million euro and the criteria for that financial release is will it triple its **value** within the next few years usually three years if not same year well that prevents many types of innovative problem
 
-how you have to propose a financial a measurement of **value** and that measurement is totally different depending on what your
+(4082,4123): feet meaning take your use your own two feet to go wherever you think you can be contributing the most **value** and you can change at any time so there are no teams there's an agenda and you can add to
 
-and it doesn't even mean it's the right measure of **value** you at least have to have one and then anyone
+(4227,4325): of two feet and it was still killed so why how you have to propose a financial a measurement of **value** and that measurement is totally different depending on what your opportunity is and it doesn't even mean it's the right measure of **value** you at least have to have one and then anyone can propose a better one and if it's majority voted it's replaced right so you organically have hopefully a better and better fit **value** measurement well then these machine learning stacks this is the part of digital self-management automatically measure a guess of how
 
-so you organically have hopefully a better and better fit **value** measurement well then these machine learning stacks this is the
+(4443,4498): they were actually really good and it's totally automated there's no time sheets nothing like that so you get a **value** divided by expense per agenda item and for me racing had extremely low **value** relative to the other work i mean it actually has many values many companies are able to justify financially racing
 
-no time sheets nothing like that so you get a **value** divided by expense per agenda item and for me racing had extremely low **value** relative to the other work i mean it actually has
+(4514,4555): immediately re kicked off of the agenda no matter how many times i proposed it no matter how good a **value** measurement that i was able to think it just was was so small and it was valuable but not in
 
-many times i proposed it no matter how good a **value** measurement that i was able to think it just was
+(4831,4872): this point 20 years in many of them are really good then each agenda item needs to propose its own **value** right so they then end up creating their own measuring stack their own digital self-management stack by dragging and dropping
 
-good then each agenda item needs to propose its own **value** right so they then end up creating their own measuring
+(5046,5087): meaningful adjustments um many things you can like use sliders and radio buttons um to get real-time feedback on the **value** the cost is this the bottleneck um where is the bottleneck and uh the key piece is they do look
 
-and radio buttons um to get real-time feedback on the **value** the cost is this the bottleneck um where is the
+(5572,5613): um that translates directly into stock price almost correctly i mean range is a critical factor for ev price and **value** of the company so the dsm digital self-management will tell you that and it would probably have funny pictures of
 
-mean range is a critical factor for ev price and **value** of the company so the dsm digital self-management will tell
+(5999,6040): more challenging it's far more efficient for humans to handle flexible parts like hoses wires flexible tubes it's much higher **value** to have humans doing creative problem solving and not assembly humans should always be involved in assembly to ground their
 
-flexible parts like hoses wires flexible tubes it's much higher **value** to have humans doing creative problem solving and not assembly
+(6919,6960): agile skill absolutely so there there's that's not the problem it's not that agile coaches don't have a a a **value** right that's not it it's that there are no single stack people there's no single skill people in the company
 
-it's not that agile coaches don't have a a a **value** right that's not it it's that there are no single
+(8769,8810): extreme programming practices being popularized in the 80s the early 80s so you have like paper and the cost to **compile** to turn like handwritten notes of code to turn that into byte code or even punch cards was a huge
 
-80s so you have like paper and the cost to **compile** to turn like handwritten notes of code to turn that
+(8821,8862): stacks of punch cards and notes of the logic the paper written logic does that match the punch cards the **compile** step getting it into byte code was often months especially for a significant piece of software so you naturally had
 
-paper written logic does that match the punch cards the **compile** step getting it into byte code was often months especially
+(8902,8983): paper notebook and you'd cross things out different colors you'd have meetings to analyze the logic and then you do **compile** and teams of humans would would sort through the logic and try to get it closer to bytecode well what enabled extreme programming was fast **compile** where in less than 10 minutes you would get feedback on does it **compile** at all and eventually where did it fail and eventually autocomplete until now when you're writing software many times the
 
-have meetings to analyze the logic and then you do **compile** and teams of humans would would sort through the logic
+(9036,9097): the same way writing c sharp does not by a long shot and it doesn't auto comp it doesn't auto **compile** flow through with logic testing continuity testing at the same level as a modern software ide and still to **compile** from a circuit board layout in software to a physical circuit board is still often a three week or longer
 
-closer to bytecode well what enabled extreme programming was fast **compile** where in less than 10 minutes you would get feedback on does it **compile** at all and eventually where did it fail and eventually
+(9099,9175): vendors none of this has to be true so the the steps really are to reduce the cycle time the **compile** time so getting a physical circuit board for example that matches your cad and then improving the digital support tools of the development environment and putting them together i mean the fact that you **compile** on your machine or virtually to the point where it feels on your machine is important and the fact that
 
-long shot and it doesn't auto comp it doesn't auto **compile** flow through with logic testing continuity testing at the same level as a modern software ide and still to **compile** from a circuit board layout in software to a physical
+(9289,9330): spent at the design time getting validation that is a goal of digital self-management your self-managing is this superior then **compile** time ideally next to you is a machine that's milling usually out of a block of aluminum but there's a
 
-the steps really are to reduce the cycle time the **compile** time so getting a physical circuit board for example that
+(9403,9444): will make a new die set once every five to seven years so you have a five to seven year **compile** time well you got a lot of times you might as well do it in a waterfall with skill silos
 
-and putting them together i mean the fact that you **compile** on your machine or virtually to the point where it
+(9550,9601): right there you're definitely not in an office two countries away and your the idea is to then shorten that **compile** time because you cannot be more agile than your **compile** time so if your current procedure that you're not allowed to change currently is i'm going to send this cad
 
-goal of digital self-management your self-managing is this superior then **compile** time ideally next to you is a machine that's milling
+(9850,9891): think how frameworks map all based on speed of the iteration so the goal is really engineering practices that reduce **compile** time and engineering practices that increase digital self-management um that's what i call extreme manufacturing um that's what katrin now
 
-seven years so you have a five to seven year **compile** time well you got a lot of times you might
+(9946,9987): recording especially you and tries to make what i just said a tweet like because it could be the actual **value** i said was you know 20 words if someone can find that and say it better than i said it
 
-away and your the idea is to then shorten that **compile** time because you cannot be more agile than your **compile** time so if your current procedure that you're not allowed
+(10966,11007): there's there's just this agenda on your phone and on these big monitors and it attracts people who can add **value** because you're encouraged to use the law of two feet and because there's no ladder to climb or again you
 
-iteration so the goal is really engineering practices that reduce **compile** time and engineering practices that increase digital self-management um that's
+(12221,12262): in the sternum because like no one i i okay not no one few people had more conviction in the **value** of the stock than me so like if the universe were only just and fair the the universe would have
 
-said a tweet like because it could be the actual **value** i said was you know 20 words if someone can
-
-these big monitors and it attracts people who can add **value** because you're encouraged to use the law of two feet
-
-not no one few people had more conviction in the **value** of the stock than me so like if the universe
-
-absolutely have to steal that storytelling that image of reducing **compile** time because that so well explains what we're trying to achieve just reduce the **compile** time that's brilliant thank you so much joe uh we
+(14839,14895): can control that we could actually do that and i absolutely have to steal that storytelling that image of reducing **compile** time because that so well explains what we're trying to achieve just reduce the **compile** time that's brilliant thank you so much joe uh we will go over to the networking session now first of

@@ -12,14 +12,14 @@ def bold_keywords(text: str, keywords: List[str]) -> str:
         text = pattern.sub(r'**\g<0>**', text)
     return text
 
-def find_keyword_indices(text: str, keywords: List[str]) -> List[int]:
+def find_keyword_indices(text: str, keywords: List[str]) -> Tuple[List[int],int]:
     """Find the indices of all occurrences of the keywords."""
     words = text.split()
     keyword_indices = []
     for i, word in enumerate(words):
         if any(re.search(fr'\b{keyword}\b', word, re.IGNORECASE) for keyword in keywords):
             keyword_indices.append(i)
-    return keyword_indices
+    return keyword_indices, len(words)
 
 
 def identify_blob_boundaries(keyword_indices: List[int], before: int, after: int) -> List[Tuple[int, int]]:
@@ -46,9 +46,9 @@ def form_blobs(text: str, boundaries: List[Tuple[int, int]], before: int, after:
     blobs = []
     for start, end in boundaries:
         blob_start = max(start - before, 0)
-        blob_end = min(end + after + 1, len(words))
-        blob = ' '.join(words[blob_start:blob_end])
-        blobs.append(blob)
+        blob_end   = min(end + after + 1, len(words))
+        blob_text  = ' '.join(words[blob_start:blob_end])
+        blobs.append(f"({blob_start},{blob_end}): {blob_text}")
 
     return blobs
 
@@ -70,12 +70,15 @@ def main():
     with open(args.file_path, 'r') as file:
         text = file.read()
 
-    keyword_indices = find_keyword_indices(text, args.keywords)
+    keyword_indices, total_words = find_keyword_indices(text, args.keywords)
     boundaries = identify_blob_boundaries(keyword_indices, args.before, args.after)
     blobs = form_blobs(text, boundaries, args.before, args.after)
 
-    # Apply bold_keywords to each blob
-    output_text = "\n\n".join(bold_keywords(blob, args.keywords) for blob in blobs)
+    output_text = f"Document: {args.file_path}\n"
+    output_text += f"Total number of words: {total_words}. Words (before,after) keywords = ({args.before},{args.after}).\n\n"
+
+    # Apply bold_keywords to each blob and join into one big string for output
+    output_text += "\n\n".join(bold_keywords(blob, args.keywords) for blob in blobs)
 
     if args.output:
         with open(args.output, 'w') as output_file:
