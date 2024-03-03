@@ -31,12 +31,15 @@ def identify_blob_boundaries(keyword_indices: List[int], before: int, after: int
     while i < len(keyword_indices):
         start = keyword_indices[i]
         end = start
-        # Extend the end boundary as long as the next keyword is within the 'after' distance
-        while i + 1 < len(keyword_indices) and keyword_indices[i + 1] - end <= after:
+
+        #while i + 1 < len(keyword_indices) and  keyword_indices[i + 1] - end_index <= after:
+        while i + 1 < len(keyword_indices) and (keyword_indices[i + 1] - end <= after or keyword_indices[i + 1] - start <= before + after):
             i += 1
             end = keyword_indices[i]
+
         boundaries.append((start, end))
         i += 1
+
     return boundaries
 
 def form_blobs(text: str, boundaries: List[Tuple[int, int]], before: int, after: int) -> List[str]:
@@ -48,6 +51,7 @@ def form_blobs(text: str, boundaries: List[Tuple[int, int]], before: int, after:
         blob_end = min(end + after + 1, len(words))
         blob = ' '.join(words[blob_start:blob_end])
         blobs.append(blob)
+
     return blobs
 
 def parse_arguments():
