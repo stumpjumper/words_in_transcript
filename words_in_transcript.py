@@ -6,49 +6,49 @@ from typing import List, Tuple
 
 def bold_keywords(text: str, keywords: List[str]) -> str:
     """Bold the keywords in the text using Markdown syntax."""
-    bolded_text = text
     for word in keywords:
-        bolded_text = re.sub(fr'\b({word})\b', r'**\1**', bolded_text, flags=re.IGNORECASE)
-    return bolded_text
+        # Using a regex pattern to match the word as a whole word, case-insensitive
+        pattern = re.compile(fr'\b{re.escape(word)}\b', re.IGNORECASE)
+        text = pattern.sub(r'**\g<0>**', text)
+    return text
 
-def find_word_blobs(text: str, keywords: List[str], before: int = 10, after: int = 10) -> List[str]:
-    """Find and return blobs of words containing the keywords."""
+def find_keyword_indices(text: str, keywords: List[str]) -> List[int]:
+    """Find the indices of all occurrences of the keywords."""
     words = text.split()
+    print ("len(words) =", len(words))
     keyword_indices = []
     for i, word in enumerate(words):
         if any(re.search(fr'\b{keyword}\b', word, re.IGNORECASE) for keyword in keywords):
             keyword_indices.append(i)
+    print ("len(keyword_indices) =", len(keyword_indices))
+    return keyword_indices
 
+
+def identify_blob_boundaries(keyword_indices: List[int], before: int, after: int) -> List[Tuple[int, int]]:
+    """Identify start and end boundary keyword pairs that are not within the specified before or after distance of any other keyword."""
+    boundaries = []
+    i = 0
+    while i < len(keyword_indices):
+        start = keyword_indices[i]
+        end = start
+        # Extend the end boundary as long as the next keyword is within the 'after' distance
+        while i + 1 < len(keyword_indices) and keyword_indices[i + 1] - end <= after:
+            i += 1
+            end = keyword_indices[i]
+        boundaries.append((start, end))
+        i += 1
+    return boundaries
+
+def form_blobs(text: str, boundaries: List[Tuple[int, int]], before: int, after: int) -> List[str]:
+    """Form blobs from keyword pairs, where the start of the blob is the start keyword's index minus the before distance and the end of the blob is the end keyword's index plus the after distance."""
+    words = text.split()
     blobs = []
-    for index in keyword_indices:
-        start = max(index - before, 0)
-        end = min(index + after + 1, len(words))
-        blob = ' '.join(words[start:end])
-        blobs.append((start, end, blob))
-
-    return merge_overlapping_blobs(blobs, keywords)
-
-def merge_overlapping_blobs(blobs: List[Tuple[int, int, str]], keywords: List[str]) -> List[str]:
-    """Merge overlapping blobs based on their indices."""
-    merged_blobs = []
-    current_blob = None
-
-    for start, end, text in blobs:
-        if current_blob and start <= current_blob[1]:
-            # Extend the current blob
-            new_end = max(end, current_blob[1])
-            new_text = ' '.join(set(current_blob[2].split() + text.split()))
-            current_blob = (current_blob[0], new_end, new_text)
-        else:
-            if current_blob:
-                merged_blobs.append(bold_keywords(current_blob[2], keywords))
-            current_blob = (start, end, text)
-
-    if current_blob:
-        merged_blobs.append(bold_keywords(current_blob[2], keywords))
-
-    return merged_blobs
-
+    for start, end in boundaries:
+        blob_start = max(start - before, 0)
+        blob_end = min(end + after + 1, len(words))
+        blob = ' '.join(words[blob_start:blob_end])
+        blobs.append(blob)
+    return blobs
 
 def parse_arguments():
     """Parse command line arguments."""
@@ -68,15 +68,19 @@ def main():
     with open(args.file_path, 'r') as file:
         text = file.read()
 
-    blobs = find_word_blobs(text, args.keywords, args.before, args.after)
+    keyword_indices = find_keyword_indices(text, args.keywords)
+    boundaries = identify_blob_boundaries(keyword_indices, args.before, args.after)
+    blobs = form_blobs(text, boundaries, args.before, args.after)
 
-    output_text = "\n\n".join(blobs)
+    # Apply bold_keywords to each blob
+    output_text = "\n\n".join(bold_keywords(blob, args.keywords) for blob in blobs)
 
     if args.output:
         with open(args.output, 'w') as output_file:
             output_file.write(output_text)
     else:
         print(output_text)
+        
 
 if __name__ == "__main__":
     main()
