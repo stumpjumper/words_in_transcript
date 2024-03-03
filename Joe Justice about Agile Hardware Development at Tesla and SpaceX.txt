@@ -1,0 +1,2829 @@
+okay let's get started
+um welcome to our agile hardware
+development meetup where we have a
+special guest today
+joe justice is the founder of wikispeed
+inventor of the x3 manufacturing method
+you've probably seen videos of him on
+tedx um
+plus he he's operated agile at tesla in
+2020 which
+we're excited to hear more about later
+on
+he is also the president of the agile
+business institute
+and gives classes on agile hardware
+development
+i was very lucky to take the class in
+december last year
+and i learned a lot about how agile is
+or how tesla has operated in an agile
+manner
+i was super excited to see how tesla
+manages to go through development cycles
+multiple times per day so they design
+build test manufacture actual hardware
+multiple times a day and joe can explain
+how that works
+plus another takeaway that i had in the
+class was that
+the tesla is not only as
+successful because they're operated in
+an agile manner but also because of elon
+musk himself so maybe joe can give us
+some insight into
+the elon musk way of working of
+operating
+his mindset and how he understands his
+role
+furthermore um we're happy to
+um q a
+joe later on so he will talk about
+um agile um the agile way at tesla for
+about 20 to 30 minutes we think and then
+we will go into the q a session
+we're super excited to have joe here
+tonight we will leave the stage to him
+in a few minutes and a few seconds
+thank you everyone for joining and have
+a great evening
+so joe this stage is all yours
+my honor and privilege to be here
+catherine it was wonderful to work with
+you in the course even in a
+beta version of the course last last
+year wow thank you so much now to engage
+with agile hardware meetup germany
+for me this is actually my dream direct
+collaboration with people passionate
+about the topic worldwide and even based
+in germany a worldwide engineering hub
+so thank you it's my honor catherine and
+christian thank you for your work
+thanks for being here
+you can see the thumbs up
+is my audio coming through okay
+yes it is oh
+perfect perfect
+it's morning here in honolulu so i will
+have a sip of iced coffee from a tikki
+cup
+and if people are okay
+i see great comments already um
+i'll zoom in on a palm tree
+and introduce
+my mentors
+i worked directly with bill gates
+later i consulted to the leadership team
+at amazon
+and then
+i joined tesla as a full-time employee
+and operated the agile program there
+and i i actually love that i i put
+michael
+from uh
+from airbus no sorry from carried
+volkswagen group
+right alongside
+when i was collaborating with volkswagen
+volkswagen group moving towards hardware
+agility
+at that time
+what i learned from
+bill gates
+is
+every business problem
+should be cut
+into as many parallel executable work
+streams as practical
+bill would ask us as the team and help
+us as the team cut every business
+initiative
+into hundreds
+of parallel executable work streams that
+did not have to wait on each other they
+could finish and be tested at any time
+this
+allowed massively parallel execution
+and a tremendous amount of speed at some
+times bill gates was the wealthiest
+person on planet earth and i think this
+was why
+bill was able to execute massively
+concurrently as an as an object-oriented
+thinker
+then bezos restricted team size to small
+teams in practice typically less than
+six people
+this allowed people to have a high level
+of psychological safety
+and personal presence at work here's
+what i mean if you're in a team of three
+people
+it's easy to say
+here's what i think we should do
+and here's why i might be right
+and here is why i might be wrong
+what do you think
+and with three people
+in 15 minutes or less we can have a high
+level of psychological safety and deep
+personal expression conversation about a
+topic that allows innovation the pace of
+innovation was extremely fast when bezos
+made a mandate for small sizes of teams
+they were called two pizza teams never
+have a meeting of any sort including any
+team meeting where two pizzas couldn't
+feed the entire group in practice that
+meant less than five people hopefully
+these are relatively small pizzas for
+health reasons
+then i went to work
+for elon musk
+and i have never seen a company
+this fast
+if you've ever listened to an audiobook
+at double speed
+there's a point where the audiobook
+speed feels normal
+and then if you accidentally play the
+audio book the same one at single speed
+it seems slow and strange
+that's what life was like working in a
+musk company
+it felt normal
+it felt fun
+easy
+normal incredibly fast
+and then
+walking into any other company in the
+world since then
+feels like slow motion
+like being in the movie the matrix where
+you could dodge bullets they seem to be
+coming so slowly
+i'm now on the board of advisors of
+three companies
+and it's easy
+because problems look like they're
+coming from miles and miles and
+kilometers and kilometers away and you
+have so much time to dodge them
+in tesla the goal was to solve any
+problem whatever the bottleneck is in 20
+minutes or less
+it was an extreme level of agility and
+the entire organization was structured
+to support that level of speed
+previously tesla was famous for being
+very tiring
+people would
+burn out and leave the company
+i believe to a large point this has been
+addressed and the situation is is
+actually quite comfortable and loving
+at this point i would like to thank
+catrin again
+the
+book
+scrum master which includes chapter 10
+on agile hardware
+which
+to this date is still the most complete
+writing on agile hardware
+um
+is now available in german on lean pub
+um katrin
+would you like to
+say anything about your experience
+taking the course and moving some of the
+language contact content to to deutsch
+of course
+it was super i was super excited to help
+you with the translation
+and it was
+very interesting to see
+these many details on how
+tesla's operated um i didn't expect to
+see so much or get too much so much
+insight into tesla in your class
+plus we
+were working in teams and we created our
+own products in your class which was
+pretty cool um everyone or each team
+chose a product that we developed in an
+agile way
+and we were really excited to see that
+happening on a hardware level
+um pretty fast to be honest
+it was my honor to collaborate with you
+and all the students um who now have the
+professional credential agile hardware
+developer
+the course as you helped me translate
+and also dennis and um
+and and michael
+is 10 stops of the tesla factory
+and i've just
+modified it
+well i mean it never ends uh
+substantially
+we have an aerial view of the tesla
+factory and i originally constructed the
+the course around what i did operating
+the agile program at each of these 10
+stops like stamping and dies and what
+that has to do with suppliers
+body assembly sprint review and
+retrospective automated test maintenance
+model
+paint coatings plastics
+new model development the model 3 the
+model y now the cyber truck and the new
+roadster
+what i'd like to cover today
+is
+much newer and has been
+iteratively added to the course
+since uh
+since last year actually just in the
+last two weeks
+so unfortunately
+katrin
+wasn't in the course when this was
+created
+so she may enjoy this
+she heard about
+digital self-management
+which i actually believe is tesla's
+strongest suit
+the strongest value out of the company
+then many of you have heard about how
+elon musk leads by sleeping at the
+bottleneck
+elon musk works
+100 hours a week
+every day of the week all seven days
+and what elon does is elon joins the
+teams
+he doesn't talk to the teams or manage
+the teams he joins the teams whichever
+is the bottleneck so he'll join in a mob
+or ensemble development for programming
+robots or drawing cad or working with a
+supplier that's currently a constraint
+whatever the bottleneck is of any type
+financial
+software
+mechanics
+suppliers
+brute assembly whatever the issue elon
+will join that team
+and elon will work there
+until that point is no longer the
+bottleneck
+and then elon will move on
+now elon's been doing that for 20 years
+now making elon radically
+cross-functional i'm not sure if elon
+musk is a genius i i'm not sure maybe
+but elon musk puts in the time and the
+sweat
+in any area of the company to have a
+radically
+competent holistic view of operations
+not by managing but by doing the work
+and when elon gets tired elon rolls out
+a sleeping bag at the bottleneck and
+sleeps
+and when elon wakes up elon continues
+working that sleeping at the bottleneck
+combined with the fact that elon takes
+no salary i mean elon doesn't even own a
+house anymore he just sleeps in a
+sleeping bag in the factory wherever the
+bottleneck is
+is very inspiring to the workforce
+and elon drinks the same coffee as
+everyone else uses the same bathroom as
+everyone else
+parks in the same employed parking lot
+as everyone else
+it makes the organization feel very flat
+now that combined with a mandate where
+if anyone prevents you from talking to
+anyone including elon musk they will be
+fired immediately
+that mandate keeps the company very flat
+so you have a very flat company with an
+owner who is paying you who makes less
+money than you and sleeps in the factory
+it's extremely exciting
+this might be already a good time
+to talk about sustainable pace
+i don't think all of us need
+to sleep in the factory in a sleeping
+bag now it works it's very effective
+but what if you want to be present
+as a spouse or a parent
+what if you want to have a side project
+writing a book
+what if you want to be involved in
+sports or camping or caravanning
+well
+i've been spending
+the last year creating
+my lifestyle and recommendation on what
+gets the maximum benefit of what i
+learned
+working for elon musk
+with the the least amount of deviation
+from a standard accepted global
+lifestyle
+and
+here's my
+learning so far
+one hour or more a day
+mobbing at the bottleneck
+this means not talking to the people at
+the bottleneck not having a meeting with
+the people at the bottleneck but joining
+ensemble development pair development or
+mob development specifically i mean
+exactly the way woody's will explains it
+at the point of the bottleneck and that
+is especially true if it's not your area
+of expertise
+by doing something like mob with a seven
+minute rotation for example
+you'll have seven minutes
+where you are trying to do the work but
+everyone else is helping you encouraging
+you cheering you on answering your
+questions in your real time
+what that means is your rate of learning
+is radically fast in an hour you'll have
+a very different level of understanding
+than any presentation could have given
+you about the topic and if you're in a
+leadership capability if your
+organization is not 100 flat
+you will have
+a far superior context to make any
+decision than you would any other way
+if this is done one or more hours every
+day
+much of the value of sleeping at the
+bottleneck
+is
+is
+is given to you
+the next value of sleeping at the
+bottleneck is you have around the clock
+development
+you know when you wake up the problem
+will be different than you go to sleep
+that prevents solo ownership or working
+alone you know someone else or many
+other people are working while you sleep
+and you will get a different
+problem
+when you wake up
+the situation will be different
+also it means if you fall asleep
+thinking about the bottleneck
+you have an opportunity for deep
+learning while you sleep and often
+you'll wake up with a different
+understanding of the problem so that's
+also beneficial
+well how to get some of that benefit
+another way
+tweet length
+journal
+before sleep
+read
+on awakening
+i did this when i was at tesla it helped
+me a tremendous amount
+just before going to sleep i would
+journal at least a tweet length
+sometimes pages but often a tweet length
+so
+very small
+of what is the current problem as i
+understand it
+and the first thing i did when i woke up
+is i would read that and then i would
+get up and
+go shower or whatnot
+that seems to create more of the value
+of around-the-clock development shared
+ownership
+and giving your sleeping mind an
+opportunity to evolve the problem
+digital self-management
+is the concept where
+anyone anywhere in the company can try
+something new
+and in seconds have feedback on if that
+new thing is valuable to the company
+that means they don't have to wait on a
+management review
+to
+invest further in a topic
+so how to get near digital
+self-management
+this was a massive
+it project and continues to be so in all
+the musk companies
+so what i believe is
+invest
+in digital self-management
+as a core product
+of your company and this is what the
+company means
+now in in in this year
+as web 3.0 begins really
+your company is your digital
+self-management stack
+which truly means a software first
+company
+again the goal meaning
+more and more types of operations get
+rapid feedback were they good or not
+good to the company in seconds and this
+is truly what the musk companies are
+awesome at doing
+now related to this
+are
+agile supplier contracts
+which if we have time we'll discuss in
+more detail but i'll at least list it
+here
+and
+silicon valley
+budgeting
+volkswagen
+a month and a half ago
+published their nine year financial plan
+their nine year budget
+how agile is that
+if
+money is earmarked at the large level
+nine years in advance
+that means any significant cash
+investment which in volkswagen cases
+more than three million euro
+needs to go through the board of
+advisors for approval
+and they don't meet every day
+so you have a lag time to request
+significant amounts of budget more than
+three million euro
+and the criteria for that financial
+release
+is
+will it triple its value within the next
+few years usually three years if not
+same year
+well that prevents many types of
+innovative problem solving
+tesla does not have a budget
+instead they do what's called silicon
+valley budgeting
+where everyone at any time real time on
+their phone
+can see how much money the company has
+left
+and they have an efficiency metric for
+how efficient that money is being spent
+and the goal as an employee of a musk
+company is to spend money as fast as you
+can efficiently
+by having digital self-management on
+efficiency
+you have complete freedom to spend money
+as fast as you possibly can on your own
+and if your
+your burn rate how fast you spend money
+is red
+that means it's below average efficiency
+for the company
+you were then encouraged to use the law
+of two feet
+to go join a project with higher
+efficiency or increase another project's
+efficiency
+this is part of the digital
+self-management and there's no budgeting
+instead you have what's called silicon
+valley accounting where you have runway
+or your remaining money
+and then you have burn rate or how fast
+the money is being spent
+and your one goal
+is to spend money as fast as you
+efficiently can
+this is agile
+when the chip shortage occurred in
+automotive which is still affecting
+automotive worldwide
+volkswagen bmw
+daimler
+ford mitsubishi toyota all had reduced
+outputs
+the amount of vehicles they could
+produce went down
+tesla's amount of vehicles produced and
+sold went up
+because there was no budget in tesla
+that had to be reverted that had to be
+redirected to address the chip shortage
+the same day people were spending money
+on different chips and writing new
+software for those chips and validation
+systems
+whereas in other companies there needed
+to be a proposal an emergency coalition
+a set of approvals a plan developed a
+waterfall plan
+of in phases how they would onboard and
+substitute different chips
+of course that's slow that's waterfall
+we've known it was slow since 1910 when
+gantt charts were published
+so you have these concepts
+working together
+to create the musk model
+what i'm trying to paint here is pink
+practices being the musk model
+and blue practices being
+justice agile hardware
+and what i hope
+is that more and more companies do take
+on the musk model
+my dream is there'd be eight billion
+companies
+running at the speed of innovation as
+the musk companies that's one company
+for every human soon to be alive right
+now there's around 7.2 billion humans
+soon it'll be 8 billion and i hope they
+all run their own company as an
+individual contributor to society that's
+innovating as fast
+as the musk companies
+now these blue cards
+are how i'm attempting to run my own
+business in life
+and i hope
+they're almost as valuable in terms of
+pace of innovation and maybe even more
+approachable
+with that introduction i'd like to
+switch our conversation to
+conversational
+with christian katrin and all of you
+teaching me i'm definitely open to learn
+what you know on these topics asking
+questions if you want to and having an
+open and collaborative conversation
+by the way today
+spacex has done what's called stack
+starship so you have the largest rocket
+ever made by humans
+fully assembled on its launch tower and
+today elon musk will be giving an update
+on starship and when it will start
+delivering
+thousands of kilograms into orbit per
+launch which is far and away the most
+mass ever delivered into orbit by a
+single rocket or even rocket series
+so that's happening today to talk about
+pace of innovation truly many things
+that humans have never been capable of
+before
+to the purpose of spreading the light of
+consciousness out among the stars
+actually i'd
+this one is super important
+many people
+feel
+elon musk's
+management is unpredictable
+it's unpredictable
+if you are attempting to maximize
+investor return this year
+the volkswagen group for example is one
+of the coolest companies on planet earth
+and herbert dyes is an extremely
+talented agilist possibly more talented
+than elon musk
+but
+large investments from volkswagen group
+are made
+on the basis of how will they return a
+near-term profit to investors
+the majority of whom is the pierce
+family
+mispronounced in many parts of the world
+is the porsche family who have a 40
+share in volkswagen group
+if
+your primary budgeting criteria is how
+will we have a near-term return on
+investment for
+the pierce family and in aggregate all
+shareholders that will lead you to make
+different decisions
+than if your investment is on a
+thousand-year vision
+every decision in the musk companies
+is highly predictable
+it's based on how do we spread the light
+of consciousness out among the stars
+so near term how do we have a fully
+self-sustaining
+human city on mars
+so in the event of a catastrophe on
+earth
+civilization and the light of
+consciousness continues
+then so on and so on and so on out among
+the stars
+elon has taken no paycheck
+in 20 years
+all the money made is put directly back
+into the companies to spread the light
+of consciousness among the stars
+now interestingly
+that's made more money than every other
+car company combined
+so by prioritizing long-term roi
+thousand-year return on investment
+the most near-term investment has been
+made
+this makes elon's decisions highly
+predictable
+there's
+the concept of electric vertical takeoff
+aircraft
+elon has said i'd love to make an
+electric jet
+i
+but but i won't in the near term why
+an electric jet or vertical takeoff and
+landing electric vehicle is extremely
+practical on planet earth
+it's not practical on the moon or mars
+different atmospheric conditions so if
+the goal is to spread the light of
+consciousness among the stars
+vertical takeoff and landing aircraft or
+electric aircraft is not critical path
+it's not critical chain
+diesel
+ultra efficient diesel or internal
+combustion of any type is not valuable
+on the moon or mars or beyond
+in the near solar system however solar
+and nuclear is
+many people seem confused why elon also
+likes nuclear energy along with solar
+well both are required for deep space
+travel
+so if you look at this thousand-year
+vision
+musk's decisions are actually extremely
+predictable
+this i think is a key difference in
+leadership mentality and likely
+important if you want to try to innovate
+at the speed of the musk companies
+okay okay now that that's laid out i
+would love to make this conversation
+much more collaborative i'll see if on
+this
+platform there i've stopped share so
+other people can even turn on their
+video if they like when we're conversing
+thank you so much christian thank you so
+much catherine it's already an honor to
+be here let's have a collaborative
+conversation
+thank you very much joe can you hear me
+well
+i can and and i just see michaela schatz
+is in the chat
+yes he is
+he commented
+mike commented on him putting him
+next to elon and jeff
+deserved well deserved i it's it's my
+honor to collaborate with period if only
+the budgeting cycle allowed them to be
+even more agile and maybe at some point
+it will uh they're phenomenal
+um if you're okay with the job we would
+go to the first question um and if to
+everyone else as well uh right next to
+the chat you have the option
+to um add questions or you have to you
+can vote up the questions that are
+already in the chat and we will go top
+to bottom so basically the highly uh the
+highest ranked uh question first
+uh organ had the first question would
+you mind explaining your question
+sure
+hi joe
+um
+actually how are the teams at spacex and
+tesla organized i heard that there's no
+real product teams like you would expect
+in a traditional company like cyber
+truck etc so people are organized around
+problems or challenges not their own
+products
+exactly i love the question if you don't
+mind keep your camera on for now so we
+can
+talk about it if we'd like to
+um if any of you or if you yourself uh
+you can
+have attended agile lean europe or agile
+testing days
+those conferences are structured a lot
+like how the musk companies are
+structured
+so when you attend
+agility europe or agile testing days or
+any open space conference there's an
+agenda
+and it says in this room there's no
+topic from 8 am to 9 a.m no topic from 9
+to 10 no topic from 10 to 11. so you can
+propose a topic in this conference room
+saying here's the empty time slots
+and people propose even new locations so
+by lunchtime at the conference there's
+the west end of the hallway by the
+bathrooms is like a new conference space
+right people
+create new spaces and they just add them
+to the agenda
+well what that means is anyone can
+propose an agenda item say in in
+conference room a
+we want to talk about increasing heat
+pump efficiency in the example of tesla
+or we want to talk about um
+uh
+x-ray testing of our orbital welder in
+the case of spacex so you have problem
+statements or opportunity statements
+and then
+everyone is encouraged to use the law of
+two feet
+meaning take your use your own two feet
+to go wherever you think you can be
+contributing the most value
+and you can change at any time so there
+are no teams
+there's an agenda
+and you can add to the agenda
+and if no one is on a problem it's auto
+deleted it's gone
+and you you choose
+now what prevents people from making
+something off mission from proposing an
+agenda item that is not a critical path
+which i tried to do many times i kept
+proposing tesla racing i i was
+co-captain of a race team at the
+nurburgring at the norwich life uh
+wikispeed.de i
+love working with guido kramer on on
+wikispeed de and i proposed many times
+let's do tesla racing it was always
+immediately killed immediately and i
+would i you know i would use my law of
+two feet and it was still killed so why
+how
+you have to propose
+a
+financial a measurement of value
+and that measurement is totally
+different depending on what your
+opportunity
+is
+and it doesn't even mean it's the right
+measure of value you at least have to
+have one and then anyone can propose a
+better one and if it's majority voted
+it's replaced right so you organically
+have hopefully a better and better fit
+value measurement
+well then these machine learning stacks
+this is the part of digital
+self-management
+automatically
+measure
+a guess of how much it's costing your
+team to execute
+well your team your agenda item
+to be executed and that's measured by
+who's there
+how much does it cost to employ them how
+long were they there what robots were
+you using what's a fraction of the cost
+of the company of those robots how many
+cubic meters of volume of the facilities
+are you using how much electricity does
+it look like you're using that's all
+automated you don't have to fill in
+anything and it's actually now pretty
+accurate because the systems have been
+running for 20 years so they're pretty
+good now in the beginning i'm sure they
+were awful but by the time i got there
+they were actually really good and it's
+totally automated there's no time sheets
+nothing like that
+so you get a value divided by expense
+per agenda item
+and for me racing
+had extremely low value relative to the
+other work i mean it actually has many
+values many companies are able to
+justify financially racing but compared
+to the other opportunities tesla has
+right now it was so small it was
+immediately re kicked off of the agenda
+no matter how many times i proposed it
+no matter how good a value measurement
+that i was able to think it just was was
+so small and it was valuable but not
+in comparison to the other topics so
+that is the the team structure it's like
+you said it's problems or opportunities
+and who's on the team could switch by
+the second in practice many people are
+in the same group for years but they
+could travel multiple times a day
+yeah thank you for sharing those
+insights john
+thanks for the question organ
+uh joe we would go to the next question
+um with the second highest votes we
+actually have a lot of questions that's
+great and you can still add questions in
+the q a sections to everyone
+the next question comes from enis
+let's see if she's
+willing to hop on stage here
+oh there she is
+yeah hey
+thanks for the question
+uh yeah thanks for giving me the
+opportunity to ask i guess
+um yeah and uh thanks again for the uh
+yeah i have to
+switch the
+monitor that i can see you um
+yeah thanks again for the insight it was
+really uh really interesting
+and uh my question my first question
+would be um
+how uh does the digital staff management
+looks like look like uh you gave us some
+examples but could you just give us even
+more impressions on how it works
+absolutely yes absolutely now digital
+self-management
+has has a common
+library of
+software elements that that are
+that are that are largely plug and play
+you don't have to be a deeply skilled
+programmer to to work with most of them
+you need to be able to write script
+and those continually evolve by anyone
+who joins those agenda groups to improve
+them
+and by this point 20 years in many of
+them are really good
+then
+each agenda item
+needs to propose its own value right
+so they then
+end up creating their own
+measuring stack their own digital
+self-management stack by dragging and
+dropping from the library maybe writing
+some script
+what that means is
+digital self management looks very
+different depending on where you are
+in the facility often the people that
+made it put pictures of themselves as
+memes
+so funny pictures of themselves in their
+tool so for example there's a tool that
+shows the flow rate of flow and where
+the bottlenecks are in part of the paint
+process
+and instead of cars it's one of the
+people who was there when that tool was
+made it's their face and it dips in the
+fluid and comes out and it's all visual
+the the goal is
+it looks like a game on your phone
+it should be
+if you can the goal is for it's
+immediately understandable
+it's funny
+uh and you can view it on your phone
+uh so depending on which area you're in
+it's a different tool
+and you can enhance the tool yourself um
+they're made to be
+you don't have to go into deep code in
+order to make meaningful
+adjustments
+um many things you can like use sliders
+and radio buttons
+um to get real-time feedback on the
+value the cost is this the bottleneck
+um where is the bottleneck
+and uh
+the key piece is they do look different
+all the time and they often look very
+funny
+and um usually they're very clear
+usually they're immediately
+understandable
+many times there's a heat map involved
+fundamental to
+tesla's machine learning
+investment is
+vision
+looking at a video feed or several video
+feeds together and trying to make some
+labels
+what is there
+and tesla's really good at that now
+they're really good at saying what is in
+these videos
+and is it moving
+then
+basic decisions based on that and and i
+mean basic we're definitely not at your
+genius partner artificial intelligence
+yet um but basic decisions like
+should this robot move left or right
+probably can make that decision pretty
+well
+um what's the safe move okay that is
+really good because the first criteria
+is safety
+so what that means is you already have
+machine learning stacks that are really
+good at what's called auto labeling what
+do i see
+and have some concept of
+should i do something
+so you can have these heat maps
+of
+almost anything
+if if a car or parts of a car or a group
+of people
+comes through
+an agile space uh well it's all agile um
+the definition of ready is what we call
+it where things come in to any given
+area the definition of ready
+laptop cameras just ordinary cameras
+bought from amazon or from a big box
+store whatever's on sale with usb or
+standard connections are taped
+all around the factory it's very very
+inexpensive
+and
+they'll see parts or people coming
+through and they'll put a heat map on
+judging do we think this was good or not
+good
+and good is more green and not good is
+more red and purple has a special
+meaning and what that means is through
+these machine learning stacks this
+digital self-management you can
+immediately see is it trending
+better whatever it is
+so if you're trying to improve the
+efficiency of heat pumps and heat pumps
+are flowing in
+part of your definition of ready is
+what is the efficiency of these heat
+pumps so there'd be a robotic automated
+test and the goal is five seconds or
+less so
+the heat pump goes through what's its
+efficiency and then your definition of
+done is what's the heap up heat pump
+efficiency now so your heat pump heat
+map will show you more green if the
+efficiency is improving from whatever
+you're doing
+and judging by your cost the machine
+vision detects there's 11 people
+swarming in here it knows your salaries
+it's nothing creepy i mean everyone's
+paid almost the same in tesla so that's
+not weird anyway the primary income is
+stock price
+so it says i think it costs you this
+much to be doing what you're doing
+and heat the efficiency is one percent
+greater
+that's actually huge because that
+translates directly into more range um
+that translates directly into stock
+price almost correctly i mean range is a
+critical factor for ev
+price and value of the company
+so the dsm digital self-management will
+tell you that
+and it would probably have funny
+pictures of whoever was in the team when
+that stack was made ines did i did i
+answer did i give you something
+yeah yeah yes you did thank you very
+much
+and sure there's more questions coming
+in the minute we speak
+so the next one
+we will also try to get him on stage
+he would like to know complete example
+of a problem that a mask team solves
+within 20 minutes that got the most
+votes in the last
+two or three minutes i think
+so it got voted up a lot
+awesome awesome
+uh gerhard would you like to join by
+video yes thank you thank you very much
+almost i did see your video for just a
+moment
+thank you
+yeah would you like to say something or
+we can't see or hear you right now
+i did see you for just a moment you had
+a wonderful video we could see the
+question
+uh okay um
+i have all kinds of video and picture
+and journal entries on exactly this
+topic
+many of these have not yet been said by
+someone other than me
+and i do have a non-disclosure agreement
+at tesla so what that means is
+i
+am encouraged to talk freely about
+anything that has already been disclosed
+um some of the digital self-management
+is already visible in videos tweeted by
+elon musk
+or by tesla china
+um
+many of these 20-minute
+issues
+i i'm trying to think which of them are
+now public
+okay here's one
+here's one that's now public sandy
+monroe
+is um
+now a world famous
+uh automotive engineer and process
+expert
+manufacturing process expert and other
+processes and sandy will buy
+a new car from every car company porsche
+the newest taken
+tesla the newest model s whatever the
+the car is and sandy and sandy's team
+will take it apart on video
+put it on youtube and they'll analyze
+how this vehicle was produced and the
+cost efficiency engineering efficiency
+level of engineering etc
+and
+some of what i'll talk about now has
+already been published on youtube not by
+me but by sandy monroe
+so it's in the public domain already
+robotic assembly
+of
+cars
+has trouble with flexible parts
+like wires or tubes or hoses
+it can work but it's much more
+challenging it's far more efficient for
+humans to handle flexible parts like
+hoses
+wires
+flexible tubes
+it's much higher value to have humans
+doing creative problem solving and not
+assembly
+humans should always be involved in
+assembly to ground their creative
+problem solving so they're solving real
+problems
+so creative problem solving is always
+intended to be done within three meters
+of the machine
+that's working on your step so if you do
+embedded software programming for a chip
+ideally you'd be within three meters of
+the machine that puts that chip into the
+car
+so you're you're in context
+of
+the thing you're working on even if it's
+software for example so you're there
+you're in the point of assembly you're
+typically sitting on the floor with a
+laptop with a in a circle of other
+people with laptops right by the machine
+a problem that was solved in 20 minutes
+or less
+was
+one of these wiring harnesses
+many people needed to route the wiring
+harness through different areas of the
+car plug it in test the connections etc
+all the wires were replaced with solid
+aluminum rods
+which from a cost standpoint does cost
+more than some low-grade braided metals
+which is what most car companies would
+use
+but by looking holistically at the
+problem and not only the cost
+of the part
+actually aluminum as a raw material is
+cheaper but you don't have vendors
+already creating solid aluminum rod
+wiring harnesses for you where there are
+vendors already producing braided
+flexible wiring harnesses for you
+so you can just buy
+spec harnesses on relatively short
+startup costs with very low startup
+costs whereas if you're making your own
+rigid wiring harness out of solid
+aluminum rod you have your startup cost
+your your setup costs
+but the eventual materials cost is
+actually lower
+so in the long run it is a better play
+well the benefit of solid aluminum rod
+wiring harnesses is
+they don't flex very much
+in fact depending on what
+packaging you do they don't flex at all
+and robots can install the wiring
+harness
+and
+prototypes of that and then eventually
+the final solution were absolutely put
+in place in 20 minutes or less
+another example that's been made public
+by farzad
+was
+an outbound logistics system
+so you're in
+one of the warehouses connected to one
+of the facilities
+and
+you have like a supermarket like a
+shopping center of parts
+because the cars change about every
+three hours so what parts are needed
+what version of the parts what materials
+changes about every three hours
+which makes it a very flexible logistics
+system versus traditional manufacturing
+where you have the same parts
+made just in time or stockpiled
+but it's the same parts for several
+years
+tesla has more of a supermarket system
+or a shopping system with many versions
+and parts
+well the way the logistics are moved the
+robotics that move them
+the software on the robots how humans
+interface with the robots to load carts
+um key them up into
+construction packs or cartridges that go
+into robots
+that was many times changed in less than
+20 minutes
+sometimes a
+a truck would be late
+um or you you wouldn't know where the
+truck is a supplier would lose track of
+the truck uh it was
+somewhere being processed by immigration
+authority or or they're not even exactly
+sure and it has parts you need now so
+you would then
+change the way the robotic funnel
+pipes parts to have a possible
+replacement part piped in that would be
+less than 20 minutes to put that in
+context most companies would change an
+outbound supply process
+maybe once every three years
+often once every seven years
+farzad working in
+well all over the company but primarily
+in logistics would say they had three
+complete changes of all of the outbound
+supply process in five months
+and aspects would be changed yes within
+20 minutes every day every single day
+yeah so those would be examples
+thank you very much jill
+the next question is interesting
+well then was scrum masters again coach
+jobs descriptions vacancies at tesla
+to my knowledge was added here
+i love it
+yeah i get no
+hey
+this is listening here
+so
+i found this really tricky yeah because
+i'm an agile coach myself and then uh
+this was an interesting insight and then
+i'm wondering and thinking okay is this
+something considered as basic knowledge
+is the role of an agile coach worthless
+or not at all there
+if you can give a brief answer on that
+i love it i love it you can uh eigen
+again oregon eugene it's also fine
+uh eugene oregon thank you thank you
+very much okay um first
+when i started sharing about what i was
+doing as
+agile at tesla
+many
+agile coaches with deep industry
+experience
+said okay i want to join and i said
+great are you gonna come in for
+water jet cutting are you gonna come in
+for welding welding inspection and
+grinding how are you gonna come in and
+they say i'm gonna come in as an agile
+coach
+no job for you my friend
+it's no job for you and they're like
+what do you mean tesla is maybe the most
+agile company on planet earth and spacex
+and boring company and neural link and
+open ai what do you mean
+and
+there's definitely
+desire for agile skill
+absolutely so there there's
+that's not the problem it's not that
+agile coaches don't have a a a
+value right that's not it
+it's that there are no single stack
+people there's no single skill people in
+the company
+and there is no one including elon musk
+that doesn't drill metal sweep floors
+grind weld seams apply industrial
+adhesive there's no one
+and so i mean the product is the goal
+an agile company is not the goal
+the way to make an excellent product
+includes amazing levels of agility but
+you are there to make the product with
+amazing levels of agility
+so many companies have skills silos like
+quality assurance
+so mechanical engineering does their
+work software engineering does their
+work in skills silos and then quality
+assurance says we have these
+recommendations to change your practices
+on the next two to five year waterfall
+roadmap
+um here's your kaizen initiatives and
+you have these handoffs well
+if you want to introduce a new product
+every five years or seven years that's
+fine
+in tesla it's not like you could afford
+the time to have agility added after the
+fact by a coaches organization or a
+product owner team it's just way
+the speed mismatch
+doesn't work at all
+what you need to be doing is improving
+production and helping production with
+your agile skill
+and the only way you're able to do it is
+because you're really good at agile
+right so it's that
+so
+inside tesla you don't even have roles
+and titles really everyone's paid almost
+the same
+but there's roles and titles outside to
+attract people with the skills they want
+and if someone says
+well i'm an agile transformation expert
+but i don't want to write code or
+program robots or load material into
+robots
+there is no place for you in the company
+like there aren't leaders either there
+aren't any it's not like elon sits in
+meetings
+there aren't any meetings i never saw a
+single sit-down meeting or
+was asked to make or saw a single
+presentation the entire time i was in
+the company it's just not needed because
+you're just you're just working you're
+at the point of work yeah so the more
+interdisciplinary you are the better for
+you i guess and then it's easier
+yeah
+i also heard that um you know like
+promotions are also quite hard at tesla
+because people supposed to you know get
+hired for where they're best at
+so yeah
+just a side remark
+in giga berlin
+it may be becoming more different i've
+been hearing different things from
+previous contacts people i worked with
+and then just from twitter
+about the culture at giga berlin i'm not
+entirely sure
+it might have more roles and titles and
+if so we'll see if that affects the pace
+of innovation i i'm not sure
+um we'll we'll see
+thank you very much joe
+thanks joe
+uh the next question is from melanie and
+i we can actually see people
+voting up some of the questions which is
+awesome we can see a lot of fluctuations
+in the which question has the highest
+votes
+and by the way we're about 90 people
+here which is amazing
+yeah melanie melanie are you requesting
+to join
+hi can you hear me
+yes yes oh yeah brilliant you can't see
+myself from i try to switch on the
+camera seemingly don't know if it works
+um thanks for the last remarks on
+because uh i'm an agile coach myself and
+you basically just rendered my job uh
+worthless
+because
+sometimes with i have the feeling you
+know that that's absolutely fine
+i think uh sometimes uh our job is um
+sticking band-aids to creepy and crappy
+structures and companies and that's why
+we're there
+so um and that that leads to the
+question that i've had um
+is i my assumption is that a lot of the
+um the problems that we see with people
+and with their burnouts and with being
+virtually overloaded comes from fighting
+against structures that are not helping
+with actually fixing problems and that
+people are really detached from being
+productive and doing great stuff
+that's what we sometimes try to fix
+and the question because you started
+with something like that saying that it
+had been a place where there was some
+symptoms of burning out people
+is that a similar experience that you've
+had or is it a different place that
+you've changed from and what were the
+means that you've you've taken what the
+changes that you've seen that actually
+made the company change into a good
+place to work for
+brilliant melanie now i think you
+just said a far more important point
+than the smaller
+supporting points i'll make in a moment
+i i think you
+hit it
+is if people are being successful
+and
+like delivering innovation
+multiple times a day
+the level of motivation fulfillment top
+of maslow's hierarchy of needs
+is so
+good for humans humans thrive
+in that environment
+that
+it's
+far more sustainable to be
+what other people would consider super
+human
+and it's it's truly because so much of
+your energy is not spent
+coping with
+frustration
+in a low frustration
+high frequency of reward environment
+rewarded by meaning achievement high
+frequency of achievement environment
+it is unreal
+the the
+achievements that humans are capable of
+and and what feels normal and
+sustainable that is far more important
+than what i'm about to say that supports
+that so
+thank you for making the probably the
+most important point
+um the pace of innovation at tesla is
+most of why it is so
+fulfilling sustainable and attracts so
+much top talent
+because it's simply thrilling
+and and relatively low frustration
+nowhere is perfect but it's it's
+it is a low frustration environment for
+innovation supporting that
+is
+there are 12 hour shifts
+at
+tesla and all the musk companies
+that means
+the the benefit is you have
+round-the-clock development when you
+leave many people would come in an hour
+early and stay an hour or more late like
+i would i would typically do 15 hours
+and journal and i would go downstream of
+where i was likely to work that dope day
+and upstream where i was likely to work
+that day before and after in journal to
+have a better complete picture
+of the operations i'm involved in
+many people would do that but at the end
+of your 12 hours you hand whatever your
+tool is your laptop your wrenches your
+welder usually all of the above to
+someone else who's just come in
+you don't own anything
+and when you come back
+12 hours again
+you get it back so you know it's
+different you know there's
+around-the-clock development um you know
+it's not gonna stop with you it's not
+your project it's the mission
+so that's the good part the downside is
+12 hours is really intense right so what
+tesla does now
+is you work three days a week you work
+three 12-hour days and then you have
+four days off to go camping
+learn to play the piano go swimming
+be a full-time parent be a a wonderful
+present spouse whatever
+the next week you have four days working
+and three days off
+and it alternates four three four three
+four three now you can choose to work
+more than your four or three days elon
+works every day
+but there is zero shame
+there there is only support
+encouragement i experienced tesla to be
+a very loving environment
+for working three days a week and then
+four days then the next week
+that's important
+the next is
+elon likes fun
+if you follow elon on twitter which is
+an easy way to get
+acquainted with elon's personality elon
+likes memes
+and funny things elon was um
+uh
+host of saturday night live an american
+comedy show and i think elon did a great
+job i think was hilarious actually i i
+thought um that's part of elon
+so there's fun and funny things all
+around the the facilities and it it
+simply makes it
+it really changes the environment and
+the feeling
+the the mission is focusing
+but it's in a very playful way there's a
+lot of dance music
+um starship the largest rocket ever was
+stacked
+and when it was first stacked so it
+became the tallest rocket ever in the
+history of humans it's just
+huge
+on massive loudspeakers they played a
+nicki minaj song that you could hear
+like two towns away like that's how loud
+this was
+and the the song was starships
+and and the refrain is starships are
+made to fly and nicki minaj who's whose
+stage name is written after making love
+to three people at once it's a play on
+menage a trois so like this is a really
+uncouth
+song you know quite rude actually and
+the refrain is higher than a mother
+and they're blasting this so you can
+hear it two towns away and its starships
+are made to fly it's the pounding tick
+that's the way spacex does stuff and
+they have a bar a tiki bar like with
+with these but with my ties in them
+at the top of the launch tower
+like that's that was a critical part
+of making this launch tower for the
+largest rocket is this bar at the top so
+it's very playful
+and that helps so part of what i'm
+focusing on now
+is with what i'm calling
+joe's agile hardware you know like the
+the kind easy version of the musk model
+is the gamification piece to make it
+actually feel like you're you're playing
+a game which the musk companies already
+do i'm trying to amplify that because it
+seems to work
+super cool answer thank you jill
+thanks no honey and we had a lot of
+parties in the parking lot virtually uh
+in your agile hardware class
+next question is from robot
+um what would you mind hopping on the
+stage
+so we can hear and hopefully see you
+another video here should be on can you
+hear me okay
+ah there's another i need to enable the
+video separately
+um
+we are just in the middle of our agile
+journey turning the whole company to
+agile and
+still
+we did not yet
+agree on how to do this with the
+hardware so we are producing little
+electronic uh mechanical devices heat
+cost allocators water meters stuff like
+that gateways
+so um
+what to your understanding would be
+the main difference for the hardware
+guys when moving to agile hardware
+development compared to the traditional
+stuff where you start collecting
+requirements and then plan the project
+and
+go through all the different stages of
+the product lifecycle
+wow wow um
+when we're starting any transformation
+it was the same for software if we think
+about software in like 1979
+right um with the extreme manufacturing
+start extreme programming practices
+being popularized in the 80s the early
+80s so you have like
+paper
+and the cost to compile to turn like
+handwritten notes of code to turn that
+into byte code or even punch cards
+was a huge endeavor that took months and
+people would like check by hand
+stacks of punch cards
+and notes of the logic the paper written
+logic does that match the punch cards
+the compile step getting it into byte
+code was often months especially for a
+significant piece of software so you
+naturally had a waterfall where you
+would draw freehand what this thing
+might do you tried to write pseudocode
+there was no autocomplete
+the ides were very i mean you didn't
+have an ide your ide was a notebook
+right like a paper notebook
+and you'd cross things out different
+colors you'd have meetings to analyze
+the logic and then you do compile
+and teams of humans would would
+sort through the logic and try to get it
+closer to bytecode
+well what enabled extreme programming
+was fast compile
+where in less than 10 minutes
+you would get feedback on does it
+compile at all and eventually where did
+it fail and eventually autocomplete
+until now when you're writing software
+many times the the
+variable names autocomplete the function
+names autocomplete and it's extremely
+different experience than developing in
+1979
+well
+most companies have not invested yet
+in that level of
+digital support
+for hardware
+so if someone's doing a circuit board
+layout
+there there are tools that help them but
+it does not auto complete the same way
+writing c sharp does
+not by a long shot and it doesn't auto
+comp it doesn't auto compile flow
+through with logic testing continuity
+testing at the same level as a modern
+software ide
+and still to compile
+from a circuit board layout in software
+to a physical circuit board is still
+often a three week or longer process
+through vendors
+none of this has to be true
+so the the steps
+really are to reduce the cycle time the
+compile time
+so getting a physical circuit board for
+example that matches your cad and then
+improving the digital support tools
+of the development environment and
+putting them together
+i mean the fact that you compile on your
+machine or virtually to the point where
+it feels on your machine is important
+and the fact that it's fast less than 10
+minutes now you know seconds often for
+your branch or however you're doing it
+the goal is to do that in hardware
+so there is this
+company-wide ambition
+to increase the
+quality of the digital development tools
+in cad
+in layouting in virtual test in
+automated test
+script those so they're running
+constantly
+so if you're drawing a car door
+as you're drawing it you have red light
+green light or heat map impact testing
+results as you're drawing it not as an
+after effect in a different department
+it is as you're drawing
+it's
+is this more green than the last door or
+not
+so there's no time spent at the design
+time getting validation that is
+a goal of digital self-management your
+self-managing is this superior
+then compile time
+ideally
+next to you
+is a machine
+that's milling
+usually out of a block of aluminum but
+there's a lot of ways to do it
+the the stamped die set for that car
+door
+so 45 minutes from now a sheet of
+aluminum or steel or whatever goes
+between the die and it makes one of
+those doors
+you know it has to go through several to
+get the different
+chamfers and angles but you have
+feedback in less than an hour that is
+perfectly possible for a door
+now most companies will make a new die
+set once every five to seven years
+so you have a five to seven year compile
+time
+well you got a lot of times you might as
+well do it in a waterfall with skill
+silos
+that's a broken mind in investment
+why don't we have our own milling
+machine to make die sets yes that's
+expensive it's a few million euro but
+how much does it cost you to have that
+supplier and what's the cost of delay
+to not have that part sooner so in a
+tesla company there's a musk company
+there's no question of course we're
+going to have our own machine
+and it's going to be within three meters
+of whoever's drawing that part so you
+see the current doors being stamped and
+you see the current die set
+as you draw the next door you are right
+there you're definitely not in an office
+two countries away
+and
+your the idea is to then shorten that
+compile time
+because you cannot be more agile than
+your compile time so if your current
+procedure
+that you're not allowed to change
+currently is i'm going to send this
+cad model off to a supplier
+they will get back to me in three months
+will then respond to their counters
+and then they'll get back to me in
+another three months and net 18 months
+from now will have the part
+that's your sprint that's your iteration
+it's 18 months
+so your goal then is shortening that and
+something magical happens when it gets
+less than a year
+now you can do quarterly budgeting
+instead of annual budgeting and that's
+what scaled agile framework is actually
+very good at doing is taking something
+to be less than a year
+and then once you get near a month
+that's what scrum is really good at
+doing can we get it less than a month
+because now having
+self-organizing cross-functional agile
+teams with a product owner and a scrum
+master makes sense when you're trying to
+get just less than a month like moving
+from a quarter of a year
+to less than a month
+now once you get under a month scrum is
+just too slow there's too many meetings
+i mean you'd be spending all your time
+meetings not doing the work and that's
+where you get to what the musk model is
+this real-time self-organization you get
+much closer to silicon valley agile when
+it's when it's high quality
+um
+and you don't have a product owner or
+scrum master or events anymore because
+they're just not quick enough to keep up
+with that pace
+so that's i think how frameworks map all
+based on speed of the iteration so the
+goal is really engineering practices
+that reduce compile time and engineering
+practices that increase digital
+self-management um that's what i call
+extreme manufacturing
+um that's what katrin now has been
+immersed in
+um and that's what my course is about
+um but but it it's
+it's it's that
+thanks for your answer very insightful
+appreciate that
+robert i noticed i took several minutes
+to say that and it didn't need to take
+several minutes what i would love is if
+anyone views the recording especially
+you and tries to make what i just said a
+tweet like because it could be the
+actual value i said was you know
+20 words if someone can find that
+and say it better than i said it i'd be
+really grateful
+it's a perfect transition to the next
+question in your class we also talked
+about uh autonomous testing and that
+every single car goes to the testing
+line and we actually have a question on
+test
+from
+oregon i'm sorry
+don't worry
+i guess you uh already answered this
+question by the previous one
+because you talked about about
+shorting the compiling time and doing
+tests so i would skip this because the
+next question is also from me
+[Laughter]
+and i kind of feel like the guys in the
+lineup already
+probably angry with me yeah so the
+question goes like this i'm currently
+i'm
+way into um looking sanji sanji's tear
+down of the model plate s
+and while looking at the back part of
+the car the motors they said okay this
+looks like really like a symphony of
+engineering
+and
+this is like an interdisciplinary team
+is doing this
+and you can imagine like by just looking
+at this how hard this is and how much
+dependencies are there and my question
+is
+how the heck are they managing those
+dependencies across all the different
+teams
+how is this possible i hope your
+nga still allows you to tell us a little
+bit more about this
+yeah
+easy
+and i think you'll laugh i think ageless
+will be like oh of course um
+first here's a picture of the automated
+testing so this is uh every car as soon
+as they're assembled puts themselves
+through every homologation test this is
+critical
+if you homologate a new model every
+five years
+that means you can't introduce new
+significantly new product faster than
+you test right so test is the bottleneck
+homologation road legalization is the
+bottleneck for bmw daimler volkswagen
+ford toyota mitsubishi honda
+so what tesla does is they automate that
+it's called factory mode and every car
+puts itself through all required
+homologation and road legal testing
+and every car then has a one-page
+digital document saying here's what's
+different from the last car potentially
+and that goes out for certification for
+just that car
+so each car is individually certified as
+road legal
+what that means is you can introduce any
+change anytime
+because you have gated check-in for
+quality each product is tested where if
+you test one out of every 10 000 cars
+you can't make change between those 10
+000 cars you're restricted so this is
+what factory mode is this is where
+autopilot came from if you think of how
+huge the software hardware supplier
+investment is in autopilot
+that was actually all for autonomous
+testing or hardware devops that was it
+that was the only purpose
+later
+someone in tesla said actually i think
+we could at least have some level of
+lane keeping assist for our end users
+because we have all this technology
+already
+autopilot was a side effect and it's now
+thought to be the largest profit
+increase
+of the tesla product line of any any
+feature but that was not its original
+intention its original intention was
+just autonomous testing that's how
+important it is of course spacex does
+the same thing the rockets autonomously
+test themselves the sprint reviews are
+really exciting as a result
+and long-running tests oh i don't have
+the graphic here
+long-running tests are done in farms
+of
+huge
+fields
+of
+parallel testing and new parts are added
+multiple times a day to to the bank of
+long-running parts
+the goal is to approve materials and
+shapes and not products
+so if you say i'm making a new rocket
+combustion chamber
+well it's new but you don't want to wait
+months for different types of tests
+instead you say has the material i used
+in the shape i used been validated
+already
+and you have this library of validated
+shapes and materials
+well that means you don't ever have to
+wait on a long running test
+or rarely
+because you have this ever-growing
+library and there's no test phase it
+never ends there's always new parts
+ending entering the test farms the test
+farms are always growing parts that have
+not yet destructed are still in there
+forever until they destruct so you have
+never ending test and it's automated in
+the cloud and by what's called dojo and
+in the cloud full time also to do
+accelerated um
+virtual
+long running tests as well so that's
+about the test piece so you can see it
+then
+to
+your point on the symphony of cross
+functionality
+well remember it's agendas right there
+is no mechanical engineering team or
+like engine cradle team there there
+isn't one
+why would you do that
+for an agilist perspective it it's
+actually
+truly stupid to organize any other way
+um and agilis i think get this
+intuitively so you have a goal it's
+let's make a really compact
+engine drivetrain package so that's an
+agenda item
+okay what do we need to know to do that
+well what's the
+outer maximum outer dimensions of the
+motor and how it connects and the motor
+can continue to iterate but as long as
+we accommodate the maximum outer
+dimension
+then it can continue to change we're not
+restricting its development
+um okay how about the cooling systems
+how much of those need to be on board
+which can be or which can be remote
+efficiently and you have
+the law of two feet
+saying anyone can go to this package
+group this package agenda item so of
+course someone who's working on the
+motor who recently did is going to be
+excited to join i want to see it
+packaged i want to be part of that
+and there's no mandate it's like musk
+taps someone on the shoulder and it's
+like i need you to go join the packaging
+team
+there's there's just this agenda on your
+phone and on these big monitors and it
+attracts people who can add value
+because you're encouraged to use the law
+of two feet
+and because there's no ladder to climb
+or again you referenced this earlier
+like there's there's just not really
+promotion your income is stock price
+like there's no next position to get
+there's then very little
+incentive for you to say you have to
+pick my idea or i need to own it because
+there's there's no promotion
+there's just stock price so you're like
+i just want to make great cars and
+so so
+it's really easy to say actually that's
+a better idea
+it's it's it's easy in fact it happens
+multiple times a day so of course you
+have a cross-functional team and it's
+not even product based and it's not
+coordination across departments there
+aren't really departments
+to an agilist this actually just makes
+clear easy sense
+well
+yeah thanks also for sharing those
+insights it's like
+it really feels fresh to hear
+so much thought and
+innovation how you can organize people
+or really how people choose to organize
+themselves maybe maybe a follow-up since
+this is my third question um
+why did you left tesla and my second
+point would be why did you really left
+tesla oh yeah yeah okay
+well so the why i left and then the the
+real answer um let's start with the real
+answer
+is um
+i had about a million dollars of tesla
+stock
+actually just over a million dollars of
+tesla stock
+and my own ethics
+said
+i don't want to be biased by my money
+when i enter this company
+um i believe in the company that's why
+i'm joining i actually
+at that time and still now i think the
+stock is going to absolutely appreciate
+holding it is the smartest thing i could
+do
+but my ethics said i don't want to be
+blinded by my cash
+i want to go in and see the company if i
+can for what it is
+so i sold 100 of my stock
+just before i accepted the employment
+contract
+like the the day the day i signed it i
+sold all my shares waited until the sale
+went through and then signed yes i
+joined the company
+um
+reuters had been publishing a hundred
+percent negative
+uh
+news articles on tesla for several years
+continuously
+and i knew
+the tesla product was much better than
+what reuters chose to say
+but reuters had a financial advantage
+for publishing 100
+negative reviews not covering any of the
+positive reviews
+um
+or or positive engineering advancements
+and reuters is picked up
+as incoming materials by many other
+outlets and other outlets did the same
+but reuters did at a very high level and
+they're picked up by other feeds and
+then rewritten for to look like other
+companies news outlets
+so i knew at some point reuters would
+decide to buy into tesla stock and
+change their narrative to be positive
+and that would be an early indicator
+that
+the stock price was about to
+not only readjust but then jump
+artificially passed
+well as soon as i joined tesla i was in
+a 30-day blackout period can't buy or
+sell stock the day after i sold my
+shares and joined the company reuters
+published their first positive review of
+tesla
+and so i said oh it's coming it's coming
+like later today the stock price is
+going to surge and i really thought to
+myself no one's going to notice if i buy
+back in
+i'm not going to be audited i'm just
+some person
+in fact it's not like i had a tesla
+stock account this was my own stock
+account it's not even directly linked
+it'd be difficult to even trace no one's
+going to care no one's going to notice
+joe you should buy back in
+i kept to my ethics i didn't buy back in
+for 30 days
+the tesla 5x stock place price split
+happened while i was in the
+blackout period and that i chose not to
+engage so i would have made 5 million
+i would have had 1 million go to 5
+million and eventually it actually
+continued to grow so it would have gone
+more
+i waited until my 30-day blackout period
+ended and i bought back in and i still
+made like half a million dollars
+but it wasn't um
+set for life
+i mean in aggregate had i never sold and
+i do think about this all the time and
+no one would have noticed um i would
+have made now about eight million
+uh
+including the initial one million so i
+would have made in addition about seven
+million i i did do fine i mean
+i did great
+but i i missed this huge event
+what that taught me
+is
+i can sweat inside the company if i love
+it
+but it's my job to take care of me
+it's
+my job to finance myself it's not like
+musk is looking to say oh you made a
+really bad financial decision here let
+me help you
+that's not the way the companies run
+it's it's my job to have
+to sustain my family myself
+and
+i could do that with even less
+restriction outside the company than
+inside
+i could directly influence inside the
+company the financial opportunities are
+actually a little easier outside the
+company than inside because there's no
+blackouts
+so in many ways that's what
+gave me logical permission to leave as i
+said financially this
+it actually makes as good if not better
+sense i i now am even more convinced
+that
+given a 10-year time span which averages
+out media manipulation of the stock
+price it will only rock it up
+so if i just hold my million investment
+i can then do whatever i want so i left
+the company i bought a condo in hawaii i
+moved to hawaii and life has been
+awesome
+so that that worked out
+now then also the reason i left tesla at
+the time i did
+so we have one what logically justified
+it and then also why i left at the time
+i did is my son was turning four
+and
+i
+said to all the people around me i want
+to take several days off to
+go camping with my son for his fourth
+birthday
+and
+there's scheduling according to
+california labor labor law like tesla
+doesn't need this but california law
+does and so tesla needs to be compliant
+because i was in fremont california at
+the mother ship we call that big factory
+and
+according to the the loading schedules
+for for california law
+i had to be there
+and i talked to my team i made sure that
+teams uh made sure they had what they
+needed
+and i said
+okay that's why i'm doing it on this day
+i'm going to go
+with
+be with my son and every human there
+that interactive was like of course
+but according to labor loading um i
+either needed to
+have a
+have
+three or four days of not show up when
+scheduled which i i wanted a perfect
+record um
+or resign and i said okay
+wow yeah thanks for sharing also the
+brave move with the stock
+thank you thank you i mean that was a
+kick in the in the sternum because like
+no one i i okay not no one few people
+had more conviction in the value of the
+stock than me
+so like if the universe were only just
+and fair the the universe would have
+been like joe you joined the company
+because you believe in it it's okay
+but um and also if i had less rigorous
+ethics and had bought back in or not
+sold i like i've yeah so i also realized
+humans like to make fairness it's good
+if you ask like three-year-olds is it
+fair that dolphins get sick because of
+chemicals people pour in the ocean
+they're like no that's not fair like
+humans get it right we understand it's
+an intuitive thing but that doesn't mean
+nature's that way
+so that also was a good real life lesson
+of nature is not fair
+nature is nature so
+please do your best to have 80
+confidence of your ability to continue
+your family
+thanks for opening sharing uh jill
+if you okay we would um read two more
+questions would that be okay for you
+so the next one is from florian
+how do you realize the fast feedback for
+any suggestion made
+florian would you would you like to join
+it's coming up
+yeah i've tried
+to so hi joe
+um
+yes so um
+you're at this point with anyone in the
+company can bring in suggestions and
+they are quickly evaluated
+i got a bit of an idea now from the
+other answers um
+but still can you elaborate a bit about
+it
+totally totally florian the
+the dream
+is that from the moment you do something
+you enact some change you change the
+shape of the door in cad or you change
+the metal that's going to go on the
+inner pillar of the door in cad or you
+change the way a paint robot does one of
+the passes or you make a change to the
+chemical mix of the powders that go into
+the paints whatever you the goal is as
+soon as you make a change you would
+immediately know was it better or worse
+that's the dream right so that's the
+core principle
+then
+one way to do that is you have a master
+crafts person
+next to you
+and they say based on my decades of deep
+passion and experience
+i think you did a good job
+good job
+and that works that actually works and
+they're not always 100 right because
+sometimes you're doing something truly
+new and they don't know either
+but
+at least it's reassuring to know they
+also don't know you're you know in a
+totally new territory so that's one way
+interestingly
+most of what human sense comes from
+their eyes
+now there's there's a significant amount
+that comes from sound for example to
+test composites do you avoid area where
+epoxy didn't penetrate the woven
+uh
+structure at different layers of the
+composite you actually use a piece of
+metal often a coin and you tap along the
+composite and you get a very different
+sound when there's a void area
+so that's also sense coming in some
+things you can touch heat conductivity
+is different depending on the quality of
+a weld underneath some things you need
+to x-ray and then use your eyes to look
+at the x-ray
+well the cool thing about machine
+learning
+is now at least tesla's flavor of
+machine learning is really good at auto
+tagging
+auto tagging things humans can see
+especially visual but some audio and
+if it can be made visual like audio
+waves
+or like heat propagation can be made
+visual through heat maps it's really
+good at auto tagging and machine
+learning if you give it enough compute
+power is essentially instant
+so
+what tesla does the goal is you quickly
+know was it good or not good right
+that's the goal
+many of these machine learning has
+digitized what the master crafts person
+would have assessed
+because they're using their eyes and
+seeing does the light reflect
+differently here or they're listening
+and having to paint the metal or they're
+feeling does the heat propagate
+sometimes all of the above
+well all of those machine learning is
+now really good at doing
+what machine learning is not great at
+doing is saying and now you should be
+this i mean it can generate a cloud of a
+thousand possible variants and do some
+automated testing but it's humans are
+still way better at creative problem
+solving
+what machine learning can't do instantly
+is say
+to the level of a master crafts person
+you just made an improvement
+good job
+so what you do you get these like
+virtual pats on the back
+and what tesla is bad at
+is actually having someone pat you on
+the back no one does that or
+so really you're celebrating just with
+whoever's there you're like we did this
+and then immediately the next challenge
+is there right so i mean
+there's an opportunity to celebrate
+better elon tries to amplify this but
+really the culture is
+solved the next challenge now i mean
+immediately right so there could be more
+celebration that's an opportunity but
+how that happens is largely by machine
+learning stacks
+doing human level assessment
+you know like robotic probes and their
+goal is to in less than five seconds and
+often many times in milliseconds because
+if it's pure vision it can go almost
+instantly
+give you feedback did is the change
+you're trying to make now better or
+worse
+[Laughter]
+thanks for the question florian
+thank you
+very interesting
+our last question is from melanie who
+we've seen before how do you measure
+individual or team contribution
+efficiency how do you assess who spend
+the money wisest
+genius and by the way melanie if i'm
+remembering you correctly you have a
+beautiful scarf today i
+i i think you did a great job on how you
+tied it
+that's actually something i've been
+trying in my free time lately it's how
+are these beautiful scarf shapes tied
+man that is an art there's truly
+hundreds of ways they all look
+completely different and i appreciate
+what you did today
+um melanie if you want to talk to us
+just stood on mute
+you can unmute at the bottom
+of the screen
+please melanie
+yes i think i figured it out ah yes oh a
+different melanie sorry different
+melanie sewing was that melanie at all
+someone else had a lovely scarf but
+pleased to talk to you melanie it's just
+a jumper so um no no craftsmanship in
+that
+but thank you for the flowers
+appreciate that yeah the the what sprung
+to mind is that um usually in in the old
+economy that i'm for example working for
+much of the control comes from setting
+up the right kpis and there's a tendency
+of having sort of a pseudo control with
+stuff that can't be measured so the the
+the question maybe is a bit two-fold on
+one side what are the limitations for
+that is the stuff that you could
+actually cannot measure throughput
+through an engine assembly speed that
+something can easily measure and um
+is that the solely um sort of of kpi
+that you take for making those decisions
+which teams improve most and um yeah can
+you can you elaborate on that a bit more
+awesome awesome um
+i did not see
+an agenda item that didn't have at least
+a measure
+um it doesn't mean it was awesome
+right because when you start you propose
+some measure and it might actually be
+quite clumsy or a poor fit but it's
+something
+oh now that's crowdsourced anyone can
+propose a superior measure and if it's
+voted by simple majority of whoever
+votes it's auto-replaced
+right so you don't have to convince
+anyone other than you propose it and if
+the fit looks better it's automatically
+replaced
+but that doesn't mean everything has an
+appropriate measure
+right but there's a measure and we're
+trying
+[Music]
+then you have fit to mission
+and
+for example uh it's been said and i
+believe it's true if anyone proposed
+anything
+that brought
+a musk company
+closer to having a mars base
+it would be approved immediately period
+no matter what
+it's on mission
+and if anything anyone proposed anything
+that was not on path to that
+it would have no chance it'd be
+immediately called immediately killed
+and that completely resonates with my
+experience so there's also a mission fit
+that said the mission is human
+understandable enough
+like no one at this point is saying what
+the mars base has to look like and is it
+primarily a hydrogen economy or no one's
+making those specifics
+so that means you have this generalized
+vision of a self-sustaining
+colony on mars to the point of spreading
+consciousness amount among the stars
+it's wide enough that
+just about everyone has some idea of
+what that could mean and they
+self-assess constantly is what i'm doing
+in line
+and humans
+self-manage a lot of this um
+to that end because the vision is is
+actually really well understood
+um at every level well there aren't
+really levels but i mean no matter who
+got hired in is is what i'm saying
+now many companies have a high cost to
+make change
+because their suppliers are primarily
+18-month lead time
+and even the design is outsourced and
+then the production is outsourced and
+then testing is outsourced so they have
+an outsourced multi-step waterfall your
+maximum slow structure and that's normal
+because in a spreadsheet it looks
+inexpensive
+except we measure cost of delay then
+it's extremely
+it's it's then a very poor choice when
+cost of delay is um
+is counted in the formula but if you're
+doing spreadsheet accounting and cogs
+only this screw is
+two cents less if we buy it from here
+even though they have an 18 month lead
+time but it's two cents more if we buy
+it from someone here in cologne
+well buy it over there the cost of delay
+is not accounted for when you're just
+looking at individual cost parts
+okay
+so
+when you have a high cost to change
+when you have
+a multi-year ripple effect
+then you have every incentive to have a
+kpi
+that protects you from making changes
+because it will disrupt your waterfall
+and you have a high cost of change
+if you have a low cost of change you're
+buying your screws here in cologne so
+you could buy a different screw tomorrow
+there is
+no penalty to switching screws
+you will get it tomorrow or actually if
+we wanted we could go get it in 45
+minutes if we really wanted but our
+regular supply comes tomorrow at 7 00 am
+so
+very little cost to make change
+then you there's so much less stress on
+having an idealized kpi to protect you
+from the cost of change
+and that is fundamentally
+the
+the paradigm shift
+um now
+musk also wants this to be self-managed
+so musk has said it by now quite
+eloquently you know after several years
+of trying to say it now musk has a short
+way of saying it
+pace of innovation is the only thing
+that matters in the long run
+that mindset
+makes us all think in terms of how to
+increase the pace of innovation and it
+has nothing to do with cost optimization
+of us screw
+it and musk has been saying this since
+the beginning it's a very agile thought
+process but musk took many words and it
+was clumsy now it's quite concise pace
+of innovation is the only thing that
+matters in the long run
+then to support that
+musk will say how you measure that
+now must conside
+quite
+neatly
+how you measure that is how much
+innovation is there per iteration
+and how short is your iteration
+well that's super agile
+it is an agile company and that is the
+the managing metric
+so now you have a consistent wish to
+shorten the iteration and increase the
+innovation which an innovation is change
+that blows up the idea of a change
+control process the last thing you want
+is to slow down change
+um and so there is no change control
+process there's no change review board
+nothing instead you have automated test
+so you know if the change you made was
+good and if so it's in production now
+and since every car is tested
+individually for legal certification
+that car sold
+today
+um so you have this
+this system
+now for for a lot of us as agile coaches
+agile passionate people
+what do we do
+we're at one piece in this system
+right
+and
+we're not in control of the overall
+like there's still a budget and
+we're not the majority vote of how the
+budget is allocated and you say what do
+we do
+well we all have a sphere of influence
+whether it's just us
+or it's a group of three people or it's
+um a budget line of three million euro a
+year whatever our sphere of influence we
+all have a sphere of influence in that
+sphere of influence if we start making
+decisions as pace of innovation is the
+only thing that matters in the long run
+that then brings us to the extreme
+manufacturing practices and joe's agile
+hardware
+now it all fits right so in your sphere
+of influence you can do it
+now what you can't do is do it in
+someone else's sphere of influence so
+you're bottlenecked before and after you
+and you can't it's not your sphere of
+influence so then the next step is to
+try to increase your sphere of influence
+and that's where things like this meetup
+come in which is why i'm so passionately
+interested in being here um and that's
+where you do internal keynotes brown
+bags um hand people my book i i think
+it's actually a a poorly written but
+excellent book um so
+and
+hand that around
+i'll be honest
+as a first-time author it's quite clumsy
+but the context content i think is
+actually excellent um
+or play this recording for people who
+are interested or a three-minute excerpt
+that you think is good and that starts
+to you find like-minded people and you
+self-organize on a larger sphere of
+influence bam bam bam bam
+now something magical happens when your
+sphere of influence does include the
+budget
+because then you can
+if you choose to you could dissolve the
+budget and use silicon valley accounting
+which then there's no penalty to change
+financially you're only incented for
+faster change
+so there is a magic tipping point where
+you cross the chasm and that's when you
+have people thinking this way this level
+of agility
+who are paying people
+uh large groups of people and setting
+the financial cadence that is a tipping
+point so it is frustrating until we get
+there of course but at least in terms of
+our sphere of influence we can we can do
+a hundred percent of this in our sphere
+it just won't have that dramatic awesome
+effect until we encompass
+the budget allocation and therefore
+company policy
+yeah very true we're a couple miles away
+we're actually um doing something like
+that so we managed to decouple a small
+part of the organization from the rest
+of the budgeting and now we have it in
+our hands we can control that we could
+actually do that and i absolutely have
+to steal that storytelling that image of
+reducing compile time because that so
+well explains what we're trying to
+achieve just reduce the compile time
+that's brilliant
+thank you so much joe
+uh we will go over to the networking
+session now
+first of all thank you so much it was um
+such a great session with you today
+um thanks for taking your time
+very valuable input from you we already
+received amazing feedback on twitter and
+other uh platforms
+i'd like to thank christian and katrin
+and i'd like to invite everyone um i'm
+interested now on
+abi
+agile.com i'm attempting that to be a
+platform that many people are on right
+now i'm a trainer on that platform i
+have these courses and i
+join boards of advisors i want it to be
+more than me i do have some partners i'd
+like a lot more
+for example there's a very talented
+person i was just talking with yesterday
+about teaching a one hour agile hardware
+course that's compatible with the way
+musk does things and the way i'm trying
+to do things so
+actually fast
+pace of innovation
+for people who want to go deeper in
+agile architecture and i'm intending
+right now to put them
+fully promoted and so you can enroll in
+their online one-hour agile architecture
+session on
+dot agilebusinessinstitute.com
+abi-agile.com
+what i'd wish is for everyone here to
+think
+what's something that you think is a
+little bit better than an average
+company maybe even way better
+towards where we're going
+because it's in steps right i i do think
+scaled agile framework is awesome for
+companies that aren't yet delivering in
+less than a year and i do think scrum is
+awesome for companies that are not yet
+delivering in less than a month
+i if you introduced scaled agile or
+scrum into tesla it'd be rejected
+immediately it's too slow but that
+doesn't mean they don't have a great
+place in in my understanding of how this
+should work
+so if you're a less practitioner if
+you're a management 3.0 practitioner
+like jurgen ditmar i've taken jurgen's
+course and i was actually really
+impressed with what dr ditmar did
+or you're going to pillow the author if
+you do
+disciplined agile delivery
+if you do your own flavor
+if you do human factors and it's a point
+in the progression
+and as long as you're okay with the
+destination that i'm trying to go
+then let's do it i'd like to make this a
+platform so please do contact me
+preferably on twitter so everyone can
+see our interaction but if you need to
+be private because you're still part of
+a client and you don't yet get to
+discuss publicly you could email me joe
+at abi
+and we can start that conversation of
+us promoting
+your work as part of this
+continuum
+i mean eventually i hope we're thousands
+of people on there with multiple courses
+being run
+around the clock and right now i do
+europe time zone courses europe and
+africa
+north and south america slice and asia
+slice and i do
+one week
+a month changing my sleep schedule
+sometimes i do more than one a day and
+sleep four hours because i i'm driven
+um
+i i hope there's people that like to
+engage in a given time zone or more
+maybe it's your evening and someone
+else's morning and and we we become
+i i hope a global force for positive
+change again my goal is for everyone to
+have their own company so eight billion
+companies maybe you're one of them and
+we're partners
+and
+um they're innovating as fast as the
+musk companies
+so to people who feel trapped in an
+existing company
+my wish is you start your own company
+now we can't all consult to other
+companies or we'd have 8 billion people
+helping
+nobody
+someone actually has to make stuff
+so i will encourage some people to make
+things
+hopefully valuable things and if these
+methods actually work you'll be able to
+innovate really quickly
+so that's the ultimate test please
+please make some things uh and and and
+let's do it
+thank you so much agile hardware meetup
+germany and and the global attendance
+group
+you
