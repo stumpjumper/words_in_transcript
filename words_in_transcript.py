@@ -15,12 +15,10 @@ def bold_keywords(text: str, keywords: List[str]) -> str:
 def find_keyword_indices(text: str, keywords: List[str]) -> List[int]:
     """Find the indices of all occurrences of the keywords."""
     words = text.split()
-    print ("len(words) =", len(words))
     keyword_indices = []
     for i, word in enumerate(words):
         if any(re.search(fr'\b{keyword}\b', word, re.IGNORECASE) for keyword in keywords):
             keyword_indices.append(i)
-    print ("len(keyword_indices) =", len(keyword_indices))
     return keyword_indices
 
 
@@ -32,8 +30,8 @@ def identify_blob_boundaries(keyword_indices: List[int], before: int, after: int
         start = keyword_indices[i]
         end = start
 
-        #while i + 1 < len(keyword_indices) and  keyword_indices[i + 1] - end_index <= after:
-        while i + 1 < len(keyword_indices) and (keyword_indices[i + 1] - end <= after or keyword_indices[i + 1] - start <= before + after):
+        #while i + 1 < len(keyword_indices) and keyword_indices[i + 1] - end <= after:
+        while  i + 1 < len(keyword_indices) and keyword_indices[i + 1] - end <= before + after:
             i += 1
             end = keyword_indices[i]
 
